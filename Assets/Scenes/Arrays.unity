@@ -1382,7 +1382,7 @@ PrefabInstance:
     - target: {fileID: 1414674541220389216, guid: 12d4027960f1cd848b79a50741604ef5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.95
+      value: -3.644
       objectReference: {fileID: 0}
     - target: {fileID: 1414674541220389216, guid: 12d4027960f1cd848b79a50741604ef5,
         type: 3}
@@ -2394,9 +2394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba07e909392ac724da336f9399f2d565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wordToSpell: hello
-  introMessage: A string is just an array of chars.
-  singleCharacter: 97
+  wordToSpell: Lavaines
+  introMessage: Who has the best cookies?
+  singleCharacter: 100
   speechBubble: {fileID: 1212234062}
   speechBubbleText: {fileID: 691629141}
 --- !u!1 &2088582801

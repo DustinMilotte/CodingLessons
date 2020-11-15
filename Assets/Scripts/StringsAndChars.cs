@@ -36,14 +36,18 @@ public class StringsAndChars : MonoBehaviour
          speechBubble.SetActive(true);
       }
 
+      // say intro text
       speechBubbleText.text = introMessage;
 
+      // wait for three seconds
       yield return new WaitForSeconds(3f);
       
+      // spell the word, iterating over each letter
       for (int i = 0; i < wordToSpell.Length; i++)
       {
+         
          speechBubbleText.text = wordToSpell[i].ToString();
-         yield return new WaitForSeconds(1f);
+         yield return new WaitForSeconds(.25f);
       }
       
       speechBubble.SetActive(false);
