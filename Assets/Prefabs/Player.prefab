@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 1414674541232463076}
   - component: {fileID: 1414674541226131330}
   - component: {fileID: 1414674541226221478}
-  - component: {fileID: 2411059144063769627}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -120,20 +119,6 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 1
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
---- !u!114 &2411059144063769627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414674541220631780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 228cefccfc33afb4aabd9adfe7cba56e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ball: {fileID: 743968899431552239, guid: 0c7f85d6cdc08194dba6c1f917177cb3, type: 3}
-  ballSpawnPoint: {fileID: 0}
 --- !u!1 &1497481005256971083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2729,6 +2714,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2371826261428228704
 MonoBehaviour:
   m_ObjectHideFlags: 0
