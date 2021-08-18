@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
     // Display the players text in a speech box
     private void ShowPlayerText()
     {
+        print("test");
         isShowingText = true;
 
         // update the text in our text component
