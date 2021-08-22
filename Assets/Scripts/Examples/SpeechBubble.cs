@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class SpeechBubble : MonoBehaviour
 {
     public TextMeshProUGUI playerSpeechText;
     public Canvas speechBubble;
