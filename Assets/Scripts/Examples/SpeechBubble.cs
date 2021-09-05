@@ -21,6 +21,7 @@ public class SpeechBubble : MonoBehaviour
         }
         
         TurnOffSpeechBubble();
+        
     }
 
     // Display the players text in a speech box
