@@ -6,11 +6,11 @@ using UnityEngine;
 public class TriggerZone : MonoBehaviour
 {
     public int zoneNumber;
-    private GameManager gameManager;
+    // private GameManager gameManager;
 
     private void Awake()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        // gameManager = FindObjectOfType<GameManager>();
     }
 
     private void OnTriggerEnter(Collider other)
