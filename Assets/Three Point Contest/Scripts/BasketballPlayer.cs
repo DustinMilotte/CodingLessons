@@ -72,6 +72,7 @@ public class BasketballPlayer : MonoBehaviour
             // rotate right
             transform.Rotate(Vector3.up * rotateSpeed * Time.deltaTime);
         }
+        
     }
 
     private void CalculateShotStrength()

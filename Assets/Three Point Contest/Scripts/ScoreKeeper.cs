@@ -1,28 +1,26 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ScoreKeeper : MonoBehaviour
 {
-    public int score;
+    public int score = 0;
+    public TextMeshProUGUI scoreText;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         // If a ball enters the collider
-        
-            // add one to the score
+        if (other.gameObject.CompareTag("Ball"))
+        {
+            score += 1;
+            UpdateScore();
+        }
+    }
+
+    private void UpdateScore()
+    {
+        scoreText.text = score.ToString();
     }
 }
