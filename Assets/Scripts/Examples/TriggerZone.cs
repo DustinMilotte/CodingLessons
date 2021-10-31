@@ -18,7 +18,7 @@ public class TriggerZone : MonoBehaviour
         // only if the player runs into trigger
         if (other.CompareTag("Player"))
         {
-            gameManager.SpawnObject(zoneNumber);
+            // gameManager.SpawnObject(zoneNumber);
         }
     }
 }
